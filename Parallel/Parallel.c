@@ -3,6 +3,9 @@
 #include <unistd.h>
 #include <time.h>
 
+//This is the code using OpenMP to parallelise the code on all (4) cores of the CPU then appending the time it took to the txt file
+//uncomment the comments below to also have it print the result to the console
+
 int main(){
 
     int n = 416;
