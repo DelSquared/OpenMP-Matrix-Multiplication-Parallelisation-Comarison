@@ -3,6 +3,9 @@
 #include <unistd.h>
 #include <time.h>
 
+//This is to check that both algorithms are giving the same exact answer. The commented out section can be uncommented to enable the
+//executable to print the arrays as well for double checking
+
 int main(){
     srand((int)time(NULL));
 
