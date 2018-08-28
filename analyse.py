@@ -1,5 +1,7 @@
 import numpy as np
 
+#this script is explained in more detail in the Jupyter Notebook available within the repository and showing also its output
+
 noPar=np.genfromtxt("noParallel/nopar.txt",dtype=np.float32,delimiter=',')
 Par=np.genfromtxt("Parallel/par.txt",dtype=np.float32,delimiter=',')
 
